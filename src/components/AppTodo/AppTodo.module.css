@@ -1,0 +1,19 @@
+.app__todo{
+  position: relative;
+  width: 600px;
+  margin: 50px auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  background: #F4F6F9;
+  box-shadow:
+  2px 4px 10px hsla(0, 0%, 0%, .3),
+  2px 4px 20px hsla(0, 0%, 0%, .2)
+;
+}
+@media screen and (max-width:570px) {
+  .app__todo{
+    width: 100%;
+  }
+}

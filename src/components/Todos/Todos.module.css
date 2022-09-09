@@ -1,0 +1,25 @@
+.todos{
+  width: 100%;
+  margin: 10px 0px;
+}
+.todoList{
+  display: flex;
+  margin: 15px 0px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+button.buttonTodoList{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  box-shadow:
+  2px 4px 10px hsla(0, 0%, 0%, .3),
+  2px 4px 20px hsla(0, 0%, 0%, .2)
+;
+}

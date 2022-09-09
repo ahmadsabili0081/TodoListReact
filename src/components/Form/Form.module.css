@@ -1,0 +1,32 @@
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputTodo{
+  width: 80%;
+  padding: 13px;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  font-family: Roboto, sans-serif;
+  box-shadow:
+  2px 4px 10px hsla(0, 0%, 0%, .3),
+  2px 4px 20px hsla(0, 0%, 0%, .2)
+;
+}
+button.addTodo{
+  display: inline-block;
+  padding: 13px;
+  width: 150px;
+  margin: 0px 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow:
+  2px 4px 10px hsla(0, 0%, 0%, .3),
+  2px 4px 20px hsla(0, 0%, 0%, .2)
+;
+}
